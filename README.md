@@ -53,6 +53,13 @@ This project is under license from MIT
 </p>
 
 - Table users_roles is responsible for matching the user to their role, allowing exclusive access to certain methods:
+- SQL command to insert in tb_user_roles:
+
+  ```
+  insert into tb_users_roles values ('user uuid', 'role uuid ')
+  example:
+  insert into tb_users_roles values ('34bf2e42-2f04-11ee-be56-0242ac120002', '3fcad0ca-2f04-11ee-be56-0242ac120002')
+  ```
 <p align="center">
   <img alt="Roles & Users" src="./img/tb_users_roles.png" width="60%">
 </p>
