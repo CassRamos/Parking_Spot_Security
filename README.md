@@ -19,7 +19,7 @@ This project was developed with the following technologies:
 
 - Java
 - Spring framework 🍃 - Spring Security, Spring Data JPA, Spring Validation & Spring Web
-- Postgres 🐘
+- PostgreSQL 🐘
 - Git & Github 
 - Postman
 
